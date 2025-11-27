@@ -1,4 +1,4 @@
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 *.so
@@ -9,7 +9,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -24,9 +23,11 @@ venv/
 ENV/
 env/
 
+.git
+.gitignore
+.dockerignore
 .env
 .env.local
-.env.*.local
 
 .idea/
 .vscode/
@@ -45,18 +46,24 @@ htmlcov/
 *.sqlite3
 *.db
 
-.next/
-out/
-dist/
-
 .pyo
 .pyd
-.so
 
 *.log
 logs/
 
+.next/
+out/
+dist/
+
+README.md
+TESTING.md
+tests/
+pytest.ini
+
+docker-compose.yml
+Dockerfile
+.github/
+
 node_modules/
 npm-debug.log
-
-.env.example.local
